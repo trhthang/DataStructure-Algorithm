@@ -1,3 +1,5 @@
+package practice;
+
 public class Kythuat2contro_RemoveElement {
     public static int removeElement(int[] nums, int val) {
         // Duyệt mảng

@@ -34,14 +34,4 @@ public class _152_maximum_product_subarray {
         return result;
     }
 
-    public static void main(String[] args) {
-        MaximumProductSubarray solution = new MaximumProductSubarray();
-        int[] nums1 = {2, 3, -2, 4};
-        int[] nums2 = {-2, 0, -1};
-
-        // Kiểm thử với bộ dữ liệu nums1
-        System.out.println("Maximum Product Subarray for nums1: " + solution.maxProduct(nums1)); // Output: 6
-        // Kiểm thử với bộ dữ liệu nums2
-        System.out.println("Maximum Product Subarray for nums2: " + solution.maxProduct(nums2)); // Output: 0
-    }
 }

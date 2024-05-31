@@ -1,0 +1,21 @@
+1. Định nghĩa 
+- Kỹ thuật tìm kiếm trong một mảng đã được sắp xếp
+
+
+2. Ý tưởng thuật toán:
+- Kỹ thuật Chia để trị
+
+3. Đánh giá thuật toán:
+
+- Time complexity: cả thật toán vòng lặp với đệ quy đều có : log(n)
+- Space Complexity:
+    Cách 1: sử dụng vòng lặp: O(1)
+    Cách 2: Sử dụng dệ quy: O(log(n))
+
+ 4. Khi nào sử dụng Binary Search:
+
+- Khi bài toán có yếu tố sắp xếp
+- Khi thực hiện nhiều truy vấn: Có n truy vấn
+    * Tìm tuần tự: n * TimKiemTuanTu = n*n O(n^2)
+    * Tìm kiếm nhị phân : Sắp Xếp + n * TimKiemNhiPhan = nlogn + nlogn = O(nlogn)
+

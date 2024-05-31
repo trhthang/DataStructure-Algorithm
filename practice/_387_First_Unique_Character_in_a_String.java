@@ -1,4 +1,5 @@
-import java.util.HashMap;
+package practice;
+
 import java.util.Hashtable;
 
 public class _387_First_Unique_Character_in_a_String {

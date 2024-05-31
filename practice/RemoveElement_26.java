@@ -1,3 +1,5 @@
+package practice;
+
 public class RemoveElement_26 {
 
     public static int removeElement(int[] nums, int val) {
