@@ -1,0 +1,7 @@
+1. Định nghĩa 
+- Kỹ thuật tìm kiếm trong một mảng đã được sắp xếp
+
+
+2. Ý tưởng thuật toán:
+- Kỹ thuật Chia để trị
+

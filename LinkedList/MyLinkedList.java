@@ -102,20 +102,67 @@ public class MyLinkedList {
         return headNode;
     }
 
+    // xóa phần tử ở giữa
+    public static Node removeAtIndex(Node headNode, int index) {
+        if (headNode == null || index < 0){
+            return null;
+        }
+
+        if(index == 0){
+            return removeAtHead(headNode);
+        }
+
+        Node curNode = headNode;
+        Node prevNode = null;
+        int count = 0;
+        boolean isFound = false;
+
+        while(curNode != null){
+            if (count == index) {
+                // remove curNode
+                isFound = true;
+                break;
+            }
+            prevNode = curNode;
+            curNode = curNode.next;
+            count++;
+        }
+
+        // Remove currNode;
+        if(isFound){
+            if (prevNode == null) { // curNode là lastnode
+                return null;
+            }else {
+                prevNode.next = curNode.next;
+            }
+        }
+
+        return headNode;
+    }
+
 
     public static void main(String[] args) {
         Node  n1 = new Node(1);
         Node  n2 = new Node(2);
         Node  n3 = new Node(3);
+        Node  n4 = new Node(4);
 
         n1.next = n2;
         n2.next = n3;
+        n3.next = n4;
 
 //        Node newList = addToHead(n1, 0);
 //        Node newList = addToTail(n1, 4);
 //        Node newList = addToIndex(n1, 12, 2);
 //        Node newList = removeAtHead(n1);
-        Node newList = removeFromTail(n1);
-        printLinkedList(newList);
+        n1 = removeAtIndex(n1, 3);
+        printLinkedList(n1);
+
+
+//        n1 = removeAtIndex(n1, 1);
+//        printLinkedList(n1);
+//
+//        n1 = removeAtIndex(n1, 2);
+//        printLinkedList(n1);
     }
 }
