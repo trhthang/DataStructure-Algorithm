@@ -1,0 +1,13 @@
+1.Định nghĩa
+
+Queue - Hàng đợi: First In First Out (FIFO) vào trước ra trước
+Stack - Ngăn xếp: First In Last Out (LIFO) vào sau ra trước
+
+2. Cài đặt:
+
+Các thao tác chính khi làm việc với Stack và Queue:
++/ push: Thêm vào một phần tử SnQ
++/ pop: Lấy ra một phần t trong SnQ
++/ isFull: Kiểm tra SnQ đã đầy chưa (array)
++/ isEmpty: Kiểm tra SnQ có empty hay không
+...

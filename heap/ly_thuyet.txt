@@ -1,0 +1,18 @@
+1. Định nghĩa
+
+HEAP = Binary Tree + Condition
+
+* HEAP là 1 cây Binary Tree (đầy đủ, hoàn chỉnh hoặc gần hoàn chỉnh)
+
+* Heap property:
+- Node Cha >= Node con (Max-Heap)
+- Node Cha <= Node con (Min-Heap)
+
+2. Các thao tác với HEAP
+
+isEmpty(): Heap có rỗng hay không
+peak(): lấy giá trị của root
+add(): thêm phần tử "v" vào Heap
+poll()/remove(): xoá root/lấy ra phần tử min
+remove(): xoá phần tử "v" ra khỏi Heap
+heapify(): đảm bảo tính chấy đống (Heap property) mỗi khi thêm vào (heapify-up) hoặc lấy ra (heapify-down)
