@@ -1,0 +1,19 @@
+Phân loại các loại Tree:
+
+1/ N-ary Tree: vô số node con
+2/ Ternary Tree: có tối đa 3 node con
+3/ Binary Tree: có tối đa 2 node con
+
+
+Các thao tác trên cây (BST)
+
+./ Thêm node vào cây:
+
+TH1: root = null
+TH2: root != null
+
+./ Xóa Node trong cây:
+
+TH1: node đó là node lá ( ko có node con )
+TH2: node đó có 1 node con
+TH3: node đó có 2 node con
