@@ -42,8 +42,7 @@ public class MyBST {
         if (root == null) {
             return null;
         }
-
-
+        
         TreeNode leftModeNode = root;
         while (leftModeNode.left != null) {
             leftModeNode = leftModeNode.left;
@@ -86,8 +85,6 @@ public class MyBST {
             root.val = leftModeNode.val;
             root.right = deleteNode(root.right, leftModeNode.val);
         }
-
-
         return root;
     }
 

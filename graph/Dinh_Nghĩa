@@ -1,0 +1,25 @@
+Định nghĩa Graph
+Đỉnh (Vertex, Node):
+
+Một điểm hoặc đối tượng trong đồ thị.
+Ký hiệu thường dùng: V hoặc v.
+Cạnh (Edge):
+
+Một kết nối giữa hai đỉnh trong đồ thị.
+Ký hiệu thường dùng: E hoặc e.
+Có thể có hướng (directed edge) hoặc không có hướng (undirected edge).
+
+Các loại Graph
+Đồ thị có hướng (Directed Graph, Digraph):
+
+Các cạnh có hướng từ một đỉnh đến một đỉnh khác.
+Mỗi cạnh được biểu diễn như một cặp có thứ tự (u, v) trong đó u là đỉnh bắt đầu và v là đỉnh kết thúc.
+Đồ thị vô hướng (Undirected Graph):
+
+Các cạnh không có hướng, kết nối hai đỉnh mà không quan trọng thứ tự.
+Mỗi cạnh được biểu diễn như một cặp (u, v) trong đó u và v là hai đỉnh kết nối.
+
+
+Biểu diễn Graph
+Danh sách kề (Adjacency List):
+Ma trận kề (Adjacency Matrix):

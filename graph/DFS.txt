@@ -1,0 +1,10 @@
+Depth First Search (Stack | Recursion)
+- Add đỉnh đầu vào stack
+- Đánh dấu đã duyệt đỉnh đầu
+while(!stack.isEmpty())
+{
+    u = stack.pop();
+    process(u)
+    - Add tất cả các đỉnh kề v với u mà chưa được duyệt vào stack.
+    - Đánh dấu đã duyệt v
+}

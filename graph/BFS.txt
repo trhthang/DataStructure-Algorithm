@@ -1,0 +1,10 @@
+Breadth First Search (Queue)
+- Add đỉnh đầu vào queue
+- Đánh dấu đã duyệt đỉnh đầu
+while(!queue.isEmpty())
+{
+    u = queue.pop();
+    process(u);
+    - Add tất cả các đỉnh kề v với u mà chưa được duyệt vào queue
+    - Đánh dấu đã duyệt v
+}

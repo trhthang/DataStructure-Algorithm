@@ -1,0 +1,16 @@
+Bước 0: Chuẩn bị
+1 bảng gồm 3 cột:
+
+cột 1: vertex (đỉnh) | cột 2: Khoảng cách ngắn nhất xuất phát từ đỉnh 0 | cột 3: Previous (đỉnh trước)
+
+Bước 1 : Khởi tạo khỏg cách:
+- Tới đỉnh xuất phát: 0
+- Tới các đỉnh khác: ∞ (vô cùng)
+
+Bước 2: Chọn đỉnh chưa duyệt và đang có khoảng cách nhỏ nhất (từ đỉnh xuất phát) làm đỉnh đang xét
+
+Bước 3: Từ đỉnh đang xét, duyệt các ĐỈNH KỀ chưa duyệt: update khoảng cách và đỉnh trước của các đỉnh đó
+
+Bước 4: Đánh dấu đỉnh đang xét thành đỉnh đã duyệt
+
+--> Lặp lại Bước 2,3,4 cho đến khi không còn đỉnh nào chưa được duyệt
